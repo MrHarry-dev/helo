@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form>
+        <h2>STUDENT REGISTRATION FORM</h2>
+        
+
+        <label>FIRST NAME</label>
+        <input type="text" maxlength="30" pattern="[A-Za-z]+" placeholder="max 30 characters a-z and A-Z">
+
+        <label>LAST NAME</label>
+        <input type="text" maxlength="30" pattern="[A-Za-z]+" placeholder="max 30 characters a-z and A-Z">
+
+        <label>DATE OF BIRTH</label>
+        <select name="day">
+            <option>Day</option>
+            <!-- Add options for days 1-31 -->
+        </select>
+        <select name="month">
+            <option>Month</option>
+            <!-- Add options for months -->
+        </select>
+        <select name="year">
+            <option>Year</option>
+            <!-- Add options for years -->
+        </select>
+
+        <label>EMAIL ID</label>
+        <input type="email">
+
+        <label>MOBILE NUMBER</label>
+        <input type="number" placeholder="10 digit number">
+
+        <label>GENDER</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <label>ADDRESS</label>
+        <textarea rows="4"></textarea>
+
+        <label>CITY</label>
+        <input type="text" maxlength="30" pattern="[A-Za-z]+" placeholder="max 30 characters a-z and A-Z">
+
+        <label>PIN CODE</label>
+        <input type="number" placeholder="6 digit number">
+
+        <label>STATE</label>
+        <input type="text" maxlength="30" pattern="[A-Za-z]+" placeholder="max 30 characters a-z and A-Z">
+
+        <label>COUNTRY</label>
+        <input type="text" maxlength="30" pattern="[A-Za-z]+" placeholder="max 30 characters a-z and A-Z">
+
+        <label>HOBBIES</label>
+        <input type="checkbox" value="drawing"> Drawing
+        <input type="checkbox" value="singing"> Singing
+        <input type="checkbox" value="dancing"> Dancing
+        <input type="checkbox" value="sketching"> Sketching
+        <input type="checkbox" value="others"> Others <input type="text">
+
+        <label>QUALIFICATION</label>
+        <table>
+            <tr>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>Class X</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="number" step="0.01"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Class XII</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="number" step="0.01"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Graduation</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="number" step="0.01"></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Masters</td>
+                <td><input type="text" maxlength="10"></td>
+                <td><input type="number" step="0.01"></td>
+                <td><input type="number"></td>
+            </tr>
+        </table>
+
+        <label>COURSES APPLIED FOR</label>
+        <input type="radio" name="course" value="BCA"> BCA
+        <input type="radio" name="course" value="B.Com"> B.Com
+        <input type="radio" name="course" value="B.Sc"> B.Sc
+        <input type="radio" name="course" value="B.A"> B.A
+
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+
+</body>
+</html>
+
+
+    
